@@ -1,12 +1,14 @@
 import SwiftUI
 
-struct MenuSection: Codable {
+/*Identifiable - A class of types whose instances hold the value of an entity with stable identity.
+ */
+struct MenuSection: Codable, Identifiable {
     var id: UUID
     var name: String
     var items: [MenuItem]
 }
 
-struct MenuItem: Codable, Equatable {
+struct MenuItem: Codable, Equatable, Identifiable {
     var id: UUID
     var name: String
     var photoCredit: String
