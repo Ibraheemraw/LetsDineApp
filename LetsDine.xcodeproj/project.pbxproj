@@ -19,6 +19,7 @@
 		489CB2B72343BD9200836D7F /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 489CB2B62343BD9200836D7F /* menu.json */; };
 		489CB2B92343CF2200836D7F /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489CB2B82343CF2200836D7F /* ItemRow.swift */; };
 		48E6B34A2345079900438021 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E6B3492345079900438021 /* ItemDetail.swift */; };
+		48E6B34C23451C6800438021 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E6B34B23451C6800438021 /* OrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		489CB2B62343BD9200836D7F /* menu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		489CB2B82343CF2200836D7F /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		48E6B3492345079900438021 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		48E6B34B23451C6800438021 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				489CB2B82343CF2200836D7F /* ItemRow.swift */,
 				489CB29E2343BB7A00836D7F /* ContentView.swift */,
 				48E6B3492345079900438021 /* ItemDetail.swift */,
+				48E6B34B23451C6800438021 /* OrderView.swift */,
 			);
 			path = SwiftUIViews;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				489CB2B92343CF2200836D7F /* ItemRow.swift in Sources */,
 				489CB29F2343BB7A00836D7F /* ContentView.swift in Sources */,
 				48E6B34A2345079900438021 /* ItemDetail.swift in Sources */,
+				48E6B34C23451C6800438021 /* OrderView.swift in Sources */,
 				489CB2B32343BD6100836D7F /* Menu.swift in Sources */,
 				489CB2B52343BD7500836D7F /* Helper.swift in Sources */,
 			);
