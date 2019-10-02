@@ -27,6 +27,7 @@ struct OrderView: View {
 }
 
 struct OrderView_Previews: PreviewProvider {
+    static let order = Order()
     static var previews: some View {
         OrderView().environmentObject(order)
     }
