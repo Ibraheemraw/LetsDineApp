@@ -1,7 +1,7 @@
 import SwiftUI
 
-class Order {
-    var items = [MenuItem]()
+class Order: ObservableObject {
+    @Published var items = [MenuItem]()
 
     var total: Int {
         if items.count > 0 {
