@@ -17,6 +17,7 @@
 		489CB2B32343BD6100836D7F /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489CB2B22343BD6100836D7F /* Menu.swift */; };
 		489CB2B52343BD7500836D7F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489CB2B42343BD7500836D7F /* Helper.swift */; };
 		489CB2B72343BD9200836D7F /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 489CB2B62343BD9200836D7F /* menu.json */; };
+		489CB2B92343CF2200836D7F /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489CB2B82343CF2200836D7F /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		489CB2B22343BD6100836D7F /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		489CB2B42343BD7500836D7F /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		489CB2B62343BD9200836D7F /* menu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		489CB2B82343CF2200836D7F /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				489CB2AF2343BD3700836D7F /* HackingWithSwiftFiles */,
-				489CB29E2343BB7A00836D7F /* ContentView.swift */,
+				489CB2BA2343CF3C00836D7F /* SwiftUIViews */,
 				489CB2AE2343BC0C00836D7F /* SupportingFiles  */,
 				489CB2A82343BB7E00836D7F /* Info.plist */,
 				489CB2A22343BB7E00836D7F /* Preview Content */,
@@ -101,6 +103,15 @@
 				489CB2B62343BD9200836D7F /* menu.json */,
 			);
 			path = HackingWithSwiftFiles;
+			sourceTree = "<group>";
+		};
+		489CB2BA2343CF3C00836D7F /* SwiftUIViews */ = {
+			isa = PBXGroup;
+			children = (
+				489CB2B82343CF2200836D7F /* ItemRow.swift */,
+				489CB29E2343BB7A00836D7F /* ContentView.swift */,
+			);
+			path = SwiftUIViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +189,7 @@
 				489CB29B2343BB7A00836D7F /* AppDelegate.swift in Sources */,
 				489CB29D2343BB7A00836D7F /* SceneDelegate.swift in Sources */,
 				489CB2B12343BD5A00836D7F /* Order.swift in Sources */,
+				489CB2B92343CF2200836D7F /* ItemRow.swift in Sources */,
 				489CB29F2343BB7A00836D7F /* ContentView.swift in Sources */,
 				489CB2B32343BD6100836D7F /* Menu.swift in Sources */,
 				489CB2B52343BD7500836D7F /* Helper.swift in Sources */,
