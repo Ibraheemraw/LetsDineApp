@@ -21,6 +21,7 @@
 		48E6B34A2345079900438021 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E6B3492345079900438021 /* ItemDetail.swift */; };
 		48E6B34C23451C6800438021 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E6B34B23451C6800438021 /* OrderView.swift */; };
 		48E6B34E234523B000438021 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E6B34D234523B000438021 /* AppView.swift */; };
+		48E6B350234526EB00438021 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E6B34F234526EB00438021 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		48E6B3492345079900438021 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		48E6B34B23451C6800438021 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		48E6B34D234523B000438021 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		48E6B34F234526EB00438021 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				48E6B3492345079900438021 /* ItemDetail.swift */,
 				48E6B34B23451C6800438021 /* OrderView.swift */,
 				48E6B34D234523B000438021 /* AppView.swift */,
+				48E6B34F234526EB00438021 /* CheckoutView.swift */,
 			);
 			path = SwiftUIViews;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				489CB29B2343BB7A00836D7F /* AppDelegate.swift in Sources */,
+				48E6B350234526EB00438021 /* CheckoutView.swift in Sources */,
 				489CB29D2343BB7A00836D7F /* SceneDelegate.swift in Sources */,
 				489CB2B12343BD5A00836D7F /* Order.swift in Sources */,
 				489CB2B92343CF2200836D7F /* ItemRow.swift in Sources */,
